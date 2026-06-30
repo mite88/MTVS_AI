@@ -4,20 +4,49 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a625c5-7274-4d52-8955-85c3cd6f5977" name="변경" comment="" />
+    <list default="true" id="99a625c5-7274-4d52-8955-85c3cd6f5977" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/amazonq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/langgraphbasic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../langgraphbasic/state.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rag@1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/runnable_parallel.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vectorstore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Embedding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Embedding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Similarity.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Similarity.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunking.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/chunking.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/Iris.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/qna_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/qna_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/split_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/split_text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document_loader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/document_loader.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vector_store.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vector_store.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="cachedIndexableFilesCount" value="35" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -30,61 +59,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000594589935" />
-      <entry key="S2" value="1.0216711202326636" />
-      <entry key="S5" value="1.3342668745003936" />
-      <entry key="S10" value="1.9285573164537284" />
-      <entry key="S30" value="3.6105195914020602" />
-      <entry key="S60" value="6.401255866599508" />
-      <entry key="M2" value="11.585725976008785" />
-      <entry key="M5" value="26.714317093892447" />
-      <entry key="M10" value="55.98177236564476" />
-      <entry key="M15" value="84.63452702436973" />
-      <entry key="M30" value="158.63133048224827" />
-      <entry key="H1" value="251.60310380178353" />
-      <entry key="H2" value="333.4747095263124" />
-      <entry key="H4" value="389.3569647646381" />
-      <entry key="D1" value="446.28300175976807" />
-      <entry key="W1" value="457.1538184691356" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.772535156097043E-113" />
+      <entry key="S2" value="2.185357072980668E-28" />
+      <entry key="S5" value="2.819239751995162E-11" />
+      <entry key="S10" value="1.6922441908999243E-5" />
+      <entry key="S30" value="0.13188872344768926" />
+      <entry key="S60" value="1.271724108772444" />
+      <entry key="M2" value="4.686452364836092" />
+      <entry key="M5" value="21.01553567905724" />
+      <entry key="M10" value="57.97483060463263" />
+      <entry key="M15" value="94.81697374666305" />
+      <entry key="M30" value="196.11608331192534" />
+      <entry key="H1" value="355.9996937389877" />
+      <entry key="H2" value="539.3619741453024" />
+      <entry key="H4" value="690.4560878592162" />
+      <entry key="D1" value="867.264103491466" />
+      <entry key="W1" value="903.7216414740466" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.1291254159824236E-52" />
-      <entry key="MS500" value="4.630638680376767E-11" />
-      <entry key="S2" value="0.0026997274123217473" />
-      <entry key="S5" value="0.1167908249415871" />
-      <entry key="S10" value="0.4600923677406286" />
-      <entry key="S30" value="1.424517371779254" />
-      <entry key="S60" value="2.8984723290654952" />
-      <entry key="M2" value="5.704776447917896" />
-      <entry key="M5" value="12.253429392890776" />
-      <entry key="M10" value="22.305653702776645" />
-      <entry key="M15" value="31.46109689066812" />
-      <entry key="M30" value="53.3213826340657" />
-      <entry key="H1" value="78.613508908092" />
-      <entry key="H2" value="99.77291316022526" />
-      <entry key="H4" value="113.82296985961432" />
-      <entry key="D1" value="127.88738842122703" />
-      <entry key="W1" value="130.54874351862438" />
+      <entry key="MS100" value="1.0000000008109573" />
+      <entry key="MS500" value="1.018065215264321" />
+      <entry key="S2" value="1.5825175113576648" />
+      <entry key="S5" value="2.2147924460397936" />
+      <entry key="S10" value="2.5573612441780456" />
+      <entry key="S30" value="2.8449493364067298" />
+      <entry key="S60" value="3.0375749653474156" />
+      <entry key="M2" value="3.7179401540529233" />
+      <entry key="M5" value="7.2103085673343275" />
+      <entry key="M10" value="16.57742716206909" />
+      <entry key="M15" value="28.389284796189376" />
+      <entry key="M30" value="66.85760451422493" />
+      <entry key="H1" value="127.98111668503385" />
+      <entry key="H2" value="193.50184464906084" />
+      <entry key="H4" value="244.70016014961732" />
+      <entry key="D1" value="302.3552276474891" />
+      <entry key="W1" value="314.00173278876287" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.183226893116823E-21" />
-      <entry key="MS500" value="7.959032160748923E-5" />
-      <entry key="S2" value="0.11690355026392217" />
-      <entry key="S5" value="0.8087742298211816" />
-      <entry key="S10" value="1.9455859420089072" />
-      <entry key="S30" value="4.816814451614178" />
-      <entry key="S60" value="9.153958617584733" />
-      <entry key="M2" value="17.184762918414506" />
-      <entry key="M5" value="38.882907581673" />
-      <entry key="M10" value="78.20533124036304" />
-      <entry key="M15" value="116.01653422571825" />
-      <entry key="M30" value="211.8828138013004" />
-      <entry key="H1" value="330.16293337962423" />
-      <entry key="H2" value="433.21261397276896" />
-      <entry key="H4" value="503.15965809862894" />
-      <entry key="D1" value="574.166541967573" />
-      <entry key="W1" value="587.7019994820936" />
+      <entry key="MS100" value="0.007139308242012054" />
+      <entry key="MS500" value="0.38113161394303524" />
+      <entry key="S2" value="1.2485340254497213" />
+      <entry key="S5" value="2.0126702349560124" />
+      <entry key="S10" value="2.4370133999891466" />
+      <entry key="S30" value="2.9310853607699863" />
+      <entry key="S60" value="4.283608513867763" />
+      <entry key="M2" value="8.38334132290992" />
+      <entry key="M5" value="28.18840655008606" />
+      <entry key="M10" value="74.4945359420406" />
+      <entry key="M15" value="123.13780103914262" />
+      <entry key="M30" value="262.89248813859706" />
+      <entry key="H1" value="483.90204650160814" />
+      <entry key="H2" value="732.8031291706711" />
+      <entry key="H4" value="935.1173268478627" />
+      <entry key="D1" value="1169.6111996461877" />
+      <entry key="W1" value="1217.7221646075088" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -99,11 +128,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.embeddings.executor": "Run",
+    "Python.vectorstore.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
@@ -114,7 +147,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion.popup",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -125,6 +158,7 @@
       <recent name="C:\work\python\rag" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\python\rag\docs" />
       <recent name="C:\work\python\rag\data" />
     </key>
   </component>
@@ -145,10 +179,18 @@
       <workItem from="1782457743464" duration="3273000" />
       <workItem from="1782606361862" duration="1511000" />
       <workItem from="1782607900649" duration="5764000" />
+      <workItem from="1782613717085" duration="7901000" />
+      <workItem from="1782630608140" duration="55000" />
+      <workItem from="1782630864254" duration="465000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rag$embeddings.coverage" NAME="embeddings 커버리지 결과" MODIFIED="1782622375335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rag$app.coverage" NAME="app 커버리지 결과" MODIFIED="1782626285891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rag$vectorstore.coverage" NAME="vectorstore 커버리지 결과" MODIFIED="1782625152142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

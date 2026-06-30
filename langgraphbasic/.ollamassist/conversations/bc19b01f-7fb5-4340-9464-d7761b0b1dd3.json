@@ -1,0 +1,15 @@
+{
+  "id" : "bc19b01f-7fb5-4340-9464-d7761b0b1dd3",
+  "title" : "load_dotenv()\n\nmodel = ChatGroq(model=\"openal/get-oss-20b\")...",
+  "createdAt" : 1782697234991,
+  "updatedAt" : 1782697292134,
+  "messages" : [ {
+    "role" : "USER",
+    "content" : "load_dotenv()\n\nmodel = ChatGroq(model=\"openal/get-oss-20b\")\n\nllm_with_tools = model.bind_tools([\n    get_weater, calculate_tax\n])\n\nresponse = llm_with_tools.invoke([\n    HumanMessage(content=\"서울 날씨\")\n])\n\nprint(response) 주석달아줘",
+    "timestamp" : 1782697257753
+  }, {
+    "role" : "ASSISTANT",
+    "content" : "```python\nfrom dotenv import load_dotenv  # 환경 변수 설정 파일 로드 (예: Groq API 키)\nfrom langchain_core.messages import HumanMessage  # 사용자 메시지의 기본 클래스 정의\nfrom langchain_groq import ChatGroq\n\nload_dotenv()  # .env 파일을 통해 세션 및 모델에 필요한 정보 로딩\n\nmodel = ChatGroq(model=\"openal/get-oss-20b\")  # Groq API 에 연결된 LLM 인스턴스 생성 (OpenAl OSS)\nllm_with_tools = model.bind_tools([get_weater, calculate_tax])  # 외부 함수를 도구로 결합하여 모델에 등록\n\nresponse = llm_with_tools.invoke([HumanMessage(content=\"서울 날씨\")])  # \"서울 날씨\" 요청을 수행하고 응답 객체 반환 (날씨/세금 관련 툴이 활성화됨)\nprint(response)  # 결과 출력\n\n# 주의: get_weater 함수 이름은 일반적으로 'weather' 로 기록되는 경우가 많으나, 코드 내 정의에 따름.\n```",
+    "timestamp" : 1782697292134
+  } ]
+}

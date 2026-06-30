@@ -1,0 +1,11 @@
+{
+  "id" : "70f0103d-fcf9-4b0a-bb73-aa0ae97fd825",
+  "title" : "from pydantic import BaseModel, SecretStr\nfrom pydantic_sett...",
+  "createdAt" : 1782709974388,
+  "updatedAt" : 1782709997261,
+  "messages" : [ {
+    "role" : "USER",
+    "content" : "from pydantic import BaseModel, SecretStr\nfrom pydantic_settings import BaseSettings, SettingsConfigDict\n\n#  Settings for the database connection\nclass DatabaseSettings(BaseModel):\n    database_name: SecretStr\n    username: SecretStr\n    password: SecretStr\n    host: SecretStr\n    port: int = 3600\n\n\nclass Settings(BaseSettings):\n\n    db: DatabaseSettings\n\n    model_config = SettingsConfigDict(\n        env_file= \".env\",\n        env_file_encoding=\"utf-8\",\n        env_nested_delimiter=\"__\"\n    )\n\ndef get_settings() -> Settings:\n    return Settings()\n한글주석이랑 문제점과 해결법",
+    "timestamp" : 1782709997261
+  } ]
+}
